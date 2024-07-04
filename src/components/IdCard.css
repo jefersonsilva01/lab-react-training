@@ -1,0 +1,13 @@
+#IdCard {
+  display: flex;
+  align-items: center;
+  border: solid #000 2px;
+  padding: 16px;
+  margin: 16px;
+  text-align: left;
+}
+
+#IdCard img {
+  margin-right: 24px;
+  height: 150px;
+}

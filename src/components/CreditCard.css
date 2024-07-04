@@ -1,0 +1,71 @@
+#card-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+#CreditCard {
+  margin: 0 16px 16px;
+  padding: 8px 16px;
+  width: 300px;
+  border-radius: 4px;
+}
+
+#CreditCard .type {
+  padding: 8px 0;
+}
+
+.visa {
+  display: block;
+  text-align: right;
+  font-size: 1.5em;
+  color: darkslateblue;
+  font-weight: bolder;
+  font-style: italic;
+}
+
+#CreditCard h2 {
+  margin: 8px 0;
+}
+
+#CreditCard p {
+  text-align: left;
+  padding: 0 16px;
+  margin: 8px;
+}
+
+#CreditCard span {
+  text-align: left;
+  display: inline-block;
+}
+
+.type {
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.red,
+.yellow {
+  border-radius: 50%;
+  height: 32px;
+  width: 32px;
+}
+
+.red {
+  background-color: red;
+  position: absolute;
+  margin-right: 25px;
+}
+
+.yellow {
+  background-color: rgb(211, 211, 33);
+}
+
+.mastercard {
+  color: #fffcfc;
+  font-size: 0.6em;
+  margin-right: 3px;
+  position: absolute;
+  font-weight: bold;
+}
