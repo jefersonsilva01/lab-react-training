@@ -1,0 +1,33 @@
+#DriverCard {
+  background-color: rgb(138, 99, 175);
+  margin: 16px auto;
+  text-align: left;
+  color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+  border-radius: 8px;
+  width: 800px;
+}
+
+#DriverCard div {
+  margin-left: 30%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+#DriverCard img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+
+#DriverCard h1 {
+  margin: 8px 0px;
+  padding: 0;
+  border: 0;
+}
+
+#DriverCard ul {
+  list-style: none;
+}

@@ -13,12 +13,12 @@ const CreditCard = (props) => {
   };
 
   if (props.type === "Visa") {
-    type = <span class="visa">Visa</span>
+    type = <span className="visa">Visa</span>
   } else {
     type = <>
-      <div class="red"></div>
-      <div class="yellow"></div>
-      <span class="mastercard">Mastercard</span>
+      <div className="red"></div>
+      <div className="yellow"></div>
+      <span className="mastercard">Mastercard</span>
     </>
   }
 
