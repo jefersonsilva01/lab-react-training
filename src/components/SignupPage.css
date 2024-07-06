@@ -1,0 +1,10 @@
+form {
+  width: 500px;
+  margin: 16px auto;
+}
+
+.form-label,
+.btn {
+  text-align: left !important;
+  display: block;
+}

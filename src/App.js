@@ -12,6 +12,8 @@ import Dice from './components/Dice';
 import Carousel from './components/Carousel';
 import NumbersTable from './components/NumbersTable';
 import FaceBook from './components/FaceBook';
+import SignupPage from './components/SignupPage';
+import RGBColorPicker from './components/RGBColorPicker';
 
 function App() {
   return (
@@ -24,7 +26,6 @@ function App() {
         birth={new Date("1992-07-14")}
         picture="https://randomuser.me/api/portraits/men/44.jpg"
       />
-
       <IdCard
         lastName='Delores '
         firstName='Obrien'
@@ -33,16 +34,12 @@ function App() {
         birth={new Date("1988-05-11")}
         picture="https://randomuser.me/api/portraits/women/44.jpg"
       />
-
       <Greetings lang="de">Ludwig</Greetings>
       <Greetings lang="fr">François</Greetings>
-
       <Random min={1} max={6} />
       <Random min={1} max={100} />
-
       <BoxColor r={255} g={0} b={0} />
       <BoxColor r={128} g={255} b={0} />
-
       <div id="card-container">
         <CreditCard
           type="Visa"
@@ -77,14 +74,12 @@ function App() {
           color="white"
         />
       </div>
-
       <Rating>0</Rating>
       <Rating>1.49</Rating>
       <Rating>1.5</Rating>
       <Rating>3</Rating>
       <Rating>4</Rating>
       <Rating>5</Rating>
-
       <DriverCard
         name="Travis Kalanick"
         rating={4.2}
@@ -94,7 +89,6 @@ function App() {
           licensePlate: "CO42DE"
         }}
       />
-
       <DriverCard
         name="Dara Khosrowshahi"
         rating={4.9}
@@ -104,17 +98,13 @@ function App() {
           licensePlate: "BE33ER"
         }}
       />
-
       <LikeButton />
       <LikeButton />
-
       <ClickablePicture
         img='maxence.png'
         imgClicked='maxence-glasses.png'
       />
-
       <Dice />
-
       <Carousel
         images={[
           'https://randomuser.me/api/portraits/women/1.jpg',
@@ -123,9 +113,10 @@ function App() {
           'https://randomuser.me/api/portraits/men/2.jpg'
         ]}
       />
-
       <NumbersTable limit={12} />
       <FaceBook />
+      <SignupPage />
+      <RGBColorPicker />
     </div>
   );
 }
